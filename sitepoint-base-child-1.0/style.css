@@ -1,0 +1,75 @@
+/*
+ Theme Name:   SitePoint Base Child
+ Theme URI:    http://www.justlearnwp.com/
+ Author:       Tahir Taous
+ Author URI:   http://www.justlearnwp.com
+ Description:  A sitepoint-base child theme by Tahir Taous
+ tags:         responsive, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+ Template:     sitepoint-base
+ Text Domain:  sitepoint-base-child
+ Version:      1.0.0
+*/
+
+
+a {color: #00BCD4;}
+a:visited {text-decoration: underline;}
+
+.site-title a {
+    color: #00BCD4;
+    font-size: 32px;
+    font-size: 2rem;
+}
+
+body, dt, b, strong, strong em, b em, em,
+.wp-caption .wp-caption-text,
+.gallery-caption,
+.entry-caption,
+blockquote p, blockquote cite,
+.menu-toggle, button, input,
+.archive-title,
+.page-title,
+.entry-content th,
+.comment-content th,
+.comments-link,
+.entry-header address,
+.comment-content address,
+.entry-header time,
+.entry-header address,
+.entry-content dt,
+.comment-content dt,
+.archive-meta,
+.comments-area article header time,
+form label.error,
+#wp-calendar caption,
+.nav-menu
+{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+article.sticky .featured-post,
+h1.page-title{
+font-family: 'Patua One', cursive;
+}
+
+
+.nav-menu { font-weight: normal;}
+.main-small-navigation a, .main-navigation a{color: #00bcd4;}
+
+
+
+.main-navigation ul ul a {
+    padding: .5rem;
+}
+
+.widget li {
+    margin: .5rem 0;
+}
+
+@media only screen and (max-width: 519px) {
+
+	.site-description{
+		text-align: center;
+	}
+}
+
